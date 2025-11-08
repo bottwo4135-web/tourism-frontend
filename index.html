@@ -4,9 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TerraVista — Explore The World</title>
+  <!-- Set base URL for GitHub Pages -->
+  <base href="/tourism-frontend/">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="static/css/styles.css" />
   <link rel="icon" href="static/img/favicon.png">
   <meta name="description" content="TerraVista connects tourists with unforgettable destinations and owners of unique places. Discover, book, and manage listings with ease.">
@@ -41,7 +45,7 @@
           <h1 class="display">Find your next unforgettable escape</h1>
           <p class="lead">From hidden waterfalls to skyline rooftops, TerraVista helps you discover and book extraordinary places, with trusted reviews and seamless planning.</p>
           <div class="search-card glass elevate">
-            <form id="quick-search" class="search-grid" action="/explore.html">
+            <form id="quick-search" class="search-grid" action="explore.html">
               <label class="field">
                 <span class="label">Location</span>
                 <input type="text" name="q" placeholder="City, country or landmark" autocomplete="off" />
@@ -58,13 +62,13 @@
             </form>
           </div>
           <div class="hero-ctas">
-            <a class="btn btn-ghost" href="/owners.html">List your place</a>
+            <a class="btn btn-ghost" href="owners.html">List your place</a>
             <a class="btn btn-ghost" href="#how">Learn more</a>
           </div>
         </div>
         <div class="hero-art">
           <picture>
-            <source srcset="/static/img/hero@2x.webp 2x, /static/img/hero.webp 1x" type="image/webp">
+            <source srcset="static/img/hero@2x.webp 2x, static/img/hero.webp 1x" type="image/webp">
             <img src="static/img/hero.jpg" alt="Tropical landscape" width="720" height="540" loading="eager" />
           </picture>
           <div class="floating-cards">
